@@ -1,0 +1,45 @@
+{
+  "name": "scrapeit-cloud-node-sdk",
+  "version": "1.0.0",
+  "description": "NodeJS SDK to interact with Scrape-it Cloud API",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scrapeit-Cloud/scrapeit-cloud-node-sdk.git"
+  },
+  "keywords": [
+    "scraping",
+    "html",
+    "extraction",
+    "parsing",
+    "api",
+    "puppeteer",
+    "headless",
+    "captcha",
+    "bypass",
+    "residential",
+    "datacenter",
+    "proxy",
+    "rotation",
+    "sdk"
+  ],
+  "author": "Roman Milyushkevich <roman@scrape-it.cloud>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scrapeit-Cloud/scrapeit-cloud-node-sdk/issues"
+  },
+  "homepage": "https://github.com/Scrapeit-Cloud/scrapeit-cloud-node-sdk#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.7.4"
+  }
+}
