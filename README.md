@@ -5,7 +5,7 @@ Interface to call [Scrapeit Cloud API](https://scrape-it.cloud/) easily from Nod
 
 ## Install
 
-    npm install --save scrapeit-cloud-node-sdk
+    npm i @scrapeit-cloud/scrapeit-cloud-node-sdk
 
 ## Usage
 Signup to Scrapeit Cloud to  [get your API key](https://app.scrape-it.cloud/sign-up)  and some free credits to get started.
