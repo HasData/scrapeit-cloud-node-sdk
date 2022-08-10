@@ -13,20 +13,20 @@ Signup to Scrapeit Cloud to  [get your API key](https://app.scrape-it.cloud/sign
     import ScrapeitSDK from './index';
 
     const main = async() => {
-	    const scrapeit = new ScrapeitSDK('INSERT_YOUR_API_KEY_HERE');
+      const scrapeit = new ScrapeitSDK('INSERT_YOUR_API_KEY_HERE');
 
-	    try {
-		    const response = await scrapeit.scrape({
-			    "url": "https://example.com",
-			    "screenshot": true,
-			    "proxy_country": "US",
-			    "proxy_type": "datacenter"
-		    });
+      try {
+        const response = await scrapeit.scrape({
+          "url": "https://example.com",
+          "screenshot": true,
+          "proxy_country": "US",
+          "proxy_type": "datacenter"
+        });
 
-		    console.log(response);
-	    } catch(e) {
-		    console.log(e.message);
-	    }
+        console.log(response);
+      } catch(e) {
+        console.log(e.message);
+      }
     };
 
     main();
